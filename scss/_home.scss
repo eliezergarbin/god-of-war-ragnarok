@@ -163,6 +163,7 @@
   background-image: url("../img/bg-characters.png");
   background-position: center center;
   background-repeat: no-repeat;
+  overflow: hidden;
   .description {
     display: flex;
     align-items: flex-start;
