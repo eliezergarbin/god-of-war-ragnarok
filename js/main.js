@@ -4,16 +4,21 @@ var swiper = new Swiper(".slide-characters", {
   freeMode: true,
   breakpoints: {
     320: {
-        slidesPerView: 1.1,
+      slidesPerView: 1.1,
     },
     768: {
-        slidesPerView: 2.2,
+      slidesPerView: 2.2,
     },
     991: {
-        slidesPerView: 2.8,
+      slidesPerView: 2.8,
     },
     1200: {
-        slidesPerView: 3.5,
+      slidesPerView: 3.5,
     },
-  }
+  },
+});
+
+AOS.init({
+  duration: 1000,
+  once: true,
 });
